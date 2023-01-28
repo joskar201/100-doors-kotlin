@@ -9,7 +9,7 @@ fun answer():Int {
         
         if(i == 1){
             initialState.forEachIndexed{ index , j ->
-                                        if(index!== 0 && index % (i+1) == 0){
+                                        if(index!== 0 && index % i == 0){
                                             initialState[index-1] = !initialState[index-1]
                                         }
                                        }
