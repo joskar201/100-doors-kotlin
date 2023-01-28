@@ -2,6 +2,3 @@ OpenJDK 64-Bit Server VM warning: Options -Xverify:none and -noverify were depre
 Hiker.kt:12:2: error: expecting '}'
 }
  ^
-Hiker.kt:6:12: error: unresolved reference: it
-        if(it % 2 == 0){
-           ^
