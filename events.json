@@ -363,5 +363,21 @@
       44,
       804
     ]
+  },
+  {
+    "duration": 6.301771,
+    "colour": "amber",
+    "predicted": "none",
+    "revert_if_wrong": "off",
+    "index": 23,
+    "time": [
+      2023,
+      1,
+      28,
+      15,
+      0,
+      2,
+      411558
+    ]
   }
 ]

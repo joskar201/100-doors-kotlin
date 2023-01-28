@@ -3,7 +3,7 @@ package hiker
 import java.util.Arrays
 
 fun answer():Int {
-    val initialState = Array(boolean){True}
+    val initialState = Array(boolean){true}
     initialState.forEachIndexed{ index , i ->
         if(index % 2 == 1){
             initialState[index] = !initialState[index]

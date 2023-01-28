@@ -1,13 +1,4 @@
 OpenJDK 64-Bit Server VM warning: Options -Xverify:none and -noverify were deprecated in JDK 13 and will likely be removed in a future release.
 Hiker.kt:6:30: error: unresolved reference: boolean
-    val initialState = Array(boolean){True}
+    val initialState = Array(boolean){true}
                              ^
-Hiker.kt:6:39: error: unresolved reference: True
-    val initialState = Array(boolean){True}
-                                      ^
-Hiker.kt:7:34: error: cannot infer a type for this parameter. Please specify it explicitly.
-    initialState.forEachIndexed{ index , i ->
-                                 ^
-Hiker.kt:7:42: error: cannot infer a type for this parameter. Please specify it explicitly.
-    initialState.forEachIndexed{ index , i ->
-                                         ^
