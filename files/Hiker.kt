@@ -7,13 +7,12 @@ fun answer():Int {
     
     for (i in 1..100){
         
-        if(i == 1){
             initialState.forEachIndexed{ index , j ->
                                         if(index!== 0 && index % i == 0){
                                             initialState[index-1] = !initialState[index-1]
                                         }
                                        }
-        }
+
     }
     
     initialState.forEachIndexed{ index , i ->

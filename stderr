@@ -1,7 +1,7 @@
 OpenJDK 64-Bit Server VM warning: Options -Xverify:none and -noverify were deprecated in JDK 13 and will likely be removed in a future release.
-Hiker.kt:11:50: warning: parameter 'j' is never used, could be renamed to _
+Hiker.kt:10:50: warning: parameter 'j' is never used, could be renamed to _
             initialState.forEachIndexed{ index , j ->
                                                  ^
-Hiker.kt:12:44: warning: identity equality for arguments of types Int and Int is deprecated
+Hiker.kt:11:44: warning: identity equality for arguments of types Int and Int is deprecated
                                         if(index!== 0 && index % i == 0){
                                            ^
