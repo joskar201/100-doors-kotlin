@@ -9,14 +9,15 @@ fun answer():Int {
         if(i == 1){
             initialState.forEachIndexed{ index , i ->
                                         if(index % 2 == 0){
-                                            initialState[index] = !initialState[index]
+                                            initialState[index-1] = !initialState[index-1]
                                         }
                                        }
         }
         if(i == 2){
             initialState.forEachIndexed{ index , i ->
                                         if(index % 3 == 1){
-                                            initialState[index] = !initialState[index]
+                                            print(index)
+                                            initialState[index-1] = !initialState[index-1]
                                         }
                                        }
         }
