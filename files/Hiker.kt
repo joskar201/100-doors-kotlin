@@ -6,7 +6,7 @@ fun answer():Int {
         if(it % 2 == 0){
                 initialState[index] = 1
         }
-        println(it)
+        print(i)
     }
     return initialState.size
 }

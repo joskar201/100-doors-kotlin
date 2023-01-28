@@ -5,6 +5,3 @@ Hiker.kt:12:2: error: expecting '}'
 Hiker.kt:6:12: error: unresolved reference: it
         if(it % 2 == 0){
            ^
-Hiker.kt:9:17: error: unresolved reference: it
-        println(it)
-                ^
