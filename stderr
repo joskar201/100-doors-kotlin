@@ -1,4 +1,7 @@
 OpenJDK 64-Bit Server VM warning: Options -Xverify:none and -noverify were deprecated in JDK 13 and will likely be removed in a future release.
-Hiker.kt:10:42: warning: parameter 'i' is never used, could be renamed to _
-    initialState.forEachIndexed{ index , i ->
-                                         ^
+Hiker.kt:8:46: warning: name shadowed: i
+        initialState.forEachIndexed{ index , i ->
+                                             ^
+Hiker.kt:8:46: warning: parameter 'i' is never used, could be renamed to _
+        initialState.forEachIndexed{ index , i ->
+                                             ^
