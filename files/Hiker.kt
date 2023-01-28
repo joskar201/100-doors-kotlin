@@ -15,7 +15,7 @@ fun answer():Int {
         }
         if(i == 2){
             initialState.forEachIndexed{ index , i ->
-                                        if(index % 2 == 1){
+                                        if(index % 3 == 1){
                                             initialState[index] = !initialState[index]
                                         }
                                        }
