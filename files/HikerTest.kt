@@ -9,11 +9,11 @@ import io.kotlintest.shouldNotBe
 class HikerTest /*[X]*/ : StringSpec() {
 
     init {
-        "Example Test" {
-            hiker.answer() shouldBe 42
+        "Test initial state has 100 elements" {
+            hiker.answer() shouldBe 100
         }
 
-        "Other example test" {
+        "" {
             "a" shouldNotBe "b"
         }
     }

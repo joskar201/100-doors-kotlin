@@ -1,5 +1,6 @@
 package hiker
 
 fun answer():Int {
-    return 6 * 9
+    val initialState = Array(100){0}
+    return initialState.size()
 }
