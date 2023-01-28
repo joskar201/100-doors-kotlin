@@ -6,7 +6,7 @@ fun answer():Int {
     val initialState = Array(100){true}
     initialState.forEachIndexed{ index , i ->
         if(index % 2 == 1){
-            initialState[index] = 1
+            initialState[index] = !initialState[index]
         }
     }
     
