@@ -1,10 +1,4 @@
 OpenJDK 64-Bit Server VM warning: Options -Xverify:none and -noverify were deprecated in JDK 13 and will likely be removed in a future release.
-Hiker.kt:6:24: error: type inference failed: constructor Array<T>(size: Int, init: (Int) -> T)
-cannot be applied to
-(Boolean.Companion,(Int) -> Boolean)
-
-    val initialState = Array(Boolean){true}
-                       ^
-Hiker.kt:6:30: error: type mismatch: inferred type is Boolean.Companion but Int was expected
-    val initialState = Array(Boolean){true}
-                             ^
+Hiker.kt:6:37: error: type mismatch: inferred type is Boolean.Companion but Int was expected
+    val initialState = BooleanArray(Boolean){true}
+                                    ^
