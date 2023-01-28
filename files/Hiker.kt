@@ -8,14 +8,14 @@ fun answer():Int {
     for (i in 1..100){
         if(i == 1){
             initialState.forEachIndexed{ index , i ->
-                                        if(index!= 0 & index % 2 == 0){
+                                        if(index!== 0 & index % 2 == 0){
                                             initialState[index-1] = !initialState[index-1]
                                         }
                                        }
         }
         if(i == 2){
             initialState.forEachIndexed{ index , i ->
-                                        if(index!= 0 & index % 3 == 1){
+                                        if(index!== 0 & index % 3 == 1){
                                             print(index)
                                             initialState[index-1] = !initialState[index-1]
                                         }
