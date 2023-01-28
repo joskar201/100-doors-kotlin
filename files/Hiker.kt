@@ -7,7 +7,8 @@ fun answer():Int {
             initialState[index] = 1
             println(index)
         }
-        println(i)
     }
+    
+    println(initialState.toString())
     return initialState.size
 }
