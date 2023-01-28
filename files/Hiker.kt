@@ -16,7 +16,7 @@ fun answer():Int {
         }*/
         if(i == 2){
             initialState.forEachIndexed{ index , i ->
-                                        if(index!== 0 && index % 3 == 1){
+                                        if(index!== 0 && index % 3 == 0){
                                             initialState[index-1] = !initialState[index-1]
                                         }
                                        }

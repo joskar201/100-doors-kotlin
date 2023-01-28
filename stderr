@@ -6,5 +6,5 @@ Hiker.kt:18:50: warning: parameter 'i' is never used, could be renamed to _
             initialState.forEachIndexed{ index , i ->
                                                  ^
 Hiker.kt:19:44: warning: identity equality for arguments of types Int and Int is deprecated
-                                        if(index!== 0 && index % 3 == 1){
+                                        if(index!== 0 && index % 3 == 0){
                                            ^
