@@ -6,14 +6,14 @@ fun answer():Int {
     val initialState = Array(100){true}
     
     for (i in 1..100){
-        if(i = 1){
+        if(i == 1){
             initialState.forEachIndexed{ index , i ->
                                         if(index % 2 == 0){
                                             initialState[index] = !initialState[index]
                                         }
                                        }
         }
-        if(i = 2){
+        if(i == 2){
             initialState.forEachIndexed{ index , i ->
                                         if(index % 2 == 1){
                                             initialState[index] = !initialState[index]

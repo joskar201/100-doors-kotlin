@@ -1,10 +1,13 @@
 OpenJDK 64-Bit Server VM warning: Options -Xverify:none and -noverify were deprecated in JDK 13 and will likely be removed in a future release.
-Hiker.kt:9:12: error: val cannot be reassigned
-        if(i = 1){
-           ^
-Hiker.kt:9:12: error: assignments are not expressions, and only expressions are allowed in this context
-        if(i = 1){
-           ^
-Hiker.kt:16:12: error: assignments are not expressions, and only expressions are allowed in this context
-        if(i = 2){
-           ^
+Hiker.kt:10:50: warning: name shadowed: i
+            initialState.forEachIndexed{ index , i ->
+                                                 ^
+Hiker.kt:10:50: warning: parameter 'i' is never used, could be renamed to _
+            initialState.forEachIndexed{ index , i ->
+                                                 ^
+Hiker.kt:17:50: warning: name shadowed: i
+            initialState.forEachIndexed{ index , i ->
+                                                 ^
+Hiker.kt:17:50: warning: parameter 'i' is never used, could be renamed to _
+            initialState.forEachIndexed{ index , i ->
+                                                 ^
