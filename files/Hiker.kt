@@ -14,16 +14,22 @@ fun answer():Int {
                                         }
                                        }
         }
-        /*
+        
         if(i == 2){
             initialState.forEachIndexed{ index , i ->
                                         if(index!== 0 && index % 3 == 0){
                                             initialState[index-1] = !initialState[index-1]
                                         }
                                        }
-        }*/
+        }
     }
     
+    initialState.forEachIndexed{ index , i ->
+                                when(i){
+                                    true -> println("door ${index - 1} closed
+                                    false -> println("door ${index - 1} open
+                                }
+                               }
     
     println(Arrays.toString(initialState))
     return initialState.size
