@@ -1,4 +1,4 @@
 OpenJDK 64-Bit Server VM warning: Options -Xverify:none and -noverify were deprecated in JDK 13 and will likely be removed in a future release.
-Hiker.kt:11:13: error: unresolved reference: Arrays
-    println(Arrays.toString(initialState))
-            ^
+Hiker.kt:7:42: warning: parameter 'i' is never used, could be renamed to _
+    initialState.forEachIndexed{ index , i ->
+                                         ^

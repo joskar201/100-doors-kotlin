@@ -1,5 +1,7 @@
 package hiker
 
+import java.util.Arrays
+
 fun answer():Int {
     val initialState = Array(100){0}
     initialState.forEachIndexed{ index , i ->
