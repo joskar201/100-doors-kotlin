@@ -3,12 +3,11 @@ package hiker
 fun answer():Int {
     val initialState = Array(100){0}
     initialState.forEachIndexed{ index , i ->
-        if(index % 2 == 0){
+        if(index % 2 == 1){
             initialState[index] = 1
-            println(index)
         }
     }
     
-    println(initialState.toString())
+    println(Arrays.toString(initialState))
     return initialState.size
 }
