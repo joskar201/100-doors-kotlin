@@ -9,6 +9,6 @@
   - io.kotlintest.extensions.RuntimeTagExtension
 1) [32m   	[39m
 
-KotlinTest completed in 0 seconds, 686 millis
+KotlinTest completed in 0 seconds, 668 millis
 Specs: completed 1, tests 1
 Tests: passed 1, failed 0, ignored 0
