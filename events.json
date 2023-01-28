@@ -587,5 +587,21 @@
       11,
       757299
     ]
+  },
+  {
+    "duration": 8.490501,
+    "colour": "green",
+    "predicted": "none",
+    "revert_if_wrong": "off",
+    "index": 37,
+    "time": [
+      2023,
+      1,
+      28,
+      15,
+      22,
+      20,
+      290546
+    ]
   }
 ]
