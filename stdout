@@ -107,10 +107,9 @@ door 97 closed
 door 98 open
 door 99 open
 door 100 closed
-[true, false, false, false, true, true, true, false, false, false, true, true, true, false, false, false, true, true, true, false, false, false, true, true, true, false, false, false, true, true, true, false, false, false, true, true, true, false, false, false, true, true, true, false, false, false, true, true, true, false, false, false, true, true, true, false, false, false, true, true, true, false, false, false, true, true, true, false, false, false, true, true, true, false, false, false, true, true, true, false, false, false, true, true, true, false, false, false, true, true, true, false, false, false, true, true, true, false, false, true]
 1) [32m   	Test initial state has 100 elements[39m
 [32m   	[39m
 
-KotlinTest completed in 0 seconds, 677 millis
+KotlinTest completed in 0 seconds, 641 millis
 Specs: completed 1, tests 2
 Tests: passed 2, failed 0, ignored 0

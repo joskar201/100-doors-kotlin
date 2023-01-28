@@ -31,6 +31,5 @@ fun answer():Int {
                                 }
                                }
     
-    println(Arrays.toString(initialState))
     return initialState.size
 }
