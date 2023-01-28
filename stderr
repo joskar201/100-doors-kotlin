@@ -1,33 +1,19 @@
 OpenJDK 64-Bit Server VM warning: Options -Xverify:none and -noverify were deprecated in JDK 13 and will likely be removed in a future release.
-Hiker.kt:29:78: error: expecting '"'
-                                    true -> println("door ${index - 1} closed
-                                                                             ^
-Hiker.kt:29:78: error: expecting ','
-                                    true -> println("door ${index - 1} closed
-                                                                             ^
-Hiker.kt:30:42: error: expecting ')'
-                                    false -> println("door ${index - 1} open
-                                         ^
-Hiker.kt:30:43: error: expecting an expression, is-condition or in-condition
-                                    false -> println("door ${index - 1} open
-                                          ^
-Hiker.kt:30:77: error: expecting '"'
-                                    false -> println("door ${index - 1} open
-                                                                            ^
-Hiker.kt:30:77: error: expecting ')'
-                                    false -> println("door ${index - 1} open
-                                                                            ^
-Hiker.kt:29:45: error: none of the following functions can be called with the arguments supplied: 
-@InlineOnly public inline fun println(): Unit defined in kotlin.io
-@InlineOnly public inline fun println(message: Any?): Unit defined in kotlin.io
-@InlineOnly public inline fun println(message: Boolean): Unit defined in kotlin.io
-@InlineOnly public inline fun println(message: Byte): Unit defined in kotlin.io
-@InlineOnly public inline fun println(message: Char): Unit defined in kotlin.io
-@InlineOnly public inline fun println(message: CharArray): Unit defined in kotlin.io
-@InlineOnly public inline fun println(message: Double): Unit defined in kotlin.io
-@InlineOnly public inline fun println(message: Float): Unit defined in kotlin.io
-@InlineOnly public inline fun println(message: Int): Unit defined in kotlin.io
-@InlineOnly public inline fun println(message: Long): Unit defined in kotlin.io
-@InlineOnly public inline fun println(message: Short): Unit defined in kotlin.io
-                                    true -> println("door ${index - 1} closed
-                                            ^
+Hiker.kt:11:50: warning: name shadowed: i
+            initialState.forEachIndexed{ index , i ->
+                                                 ^
+Hiker.kt:11:50: warning: parameter 'i' is never used, could be renamed to _
+            initialState.forEachIndexed{ index , i ->
+                                                 ^
+Hiker.kt:12:44: warning: identity equality for arguments of types Int and Int is deprecated
+                                        if(index!== 0 && index % 2 == 0){
+                                           ^
+Hiker.kt:19:50: warning: name shadowed: i
+            initialState.forEachIndexed{ index , i ->
+                                                 ^
+Hiker.kt:19:50: warning: parameter 'i' is never used, could be renamed to _
+            initialState.forEachIndexed{ index , i ->
+                                                 ^
+Hiker.kt:20:44: warning: identity equality for arguments of types Int and Int is deprecated
+                                        if(index!== 0 && index % 3 == 0){
+                                           ^

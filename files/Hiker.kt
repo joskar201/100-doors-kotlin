@@ -26,8 +26,8 @@ fun answer():Int {
     
     initialState.forEachIndexed{ index , i ->
                                 when(i){
-                                    true -> println("door ${index - 1} closed
-                                    false -> println("door ${index - 1} open
+                                    true -> println("door ${index - 1} closed")
+                                    false -> println("door ${index - 1} open")
                                 }
                                }
     

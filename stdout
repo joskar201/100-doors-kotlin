@@ -1,0 +1,116 @@
+~~~ Project Configuration ~~~
+-> Parallelism: 1 thread
+-> Test order: LexicographicSpecExecutionOrder
+-> Soft assertations: False
+-> Write spec failure file: False
+-> Fail on ignored tests: False
+-> Extensions
+  - io.kotlintest.extensions.SystemPropertyTagExtension
+  - io.kotlintest.extensions.RuntimeTagExtension
+door -1 closed
+door 0 open
+door 1 open
+door 2 open
+door 3 closed
+door 4 closed
+door 5 closed
+door 6 open
+door 7 open
+door 8 open
+door 9 closed
+door 10 closed
+door 11 closed
+door 12 open
+door 13 open
+door 14 open
+door 15 closed
+door 16 closed
+door 17 closed
+door 18 open
+door 19 open
+door 20 open
+door 21 closed
+door 22 closed
+door 23 closed
+door 24 open
+door 25 open
+door 26 open
+door 27 closed
+door 28 closed
+door 29 closed
+door 30 open
+door 31 open
+door 32 open
+door 33 closed
+door 34 closed
+door 35 closed
+door 36 open
+door 37 open
+door 38 open
+door 39 closed
+door 40 closed
+door 41 closed
+door 42 open
+door 43 open
+door 44 open
+door 45 closed
+door 46 closed
+door 47 closed
+door 48 open
+door 49 open
+door 50 open
+door 51 closed
+door 52 closed
+door 53 closed
+door 54 open
+door 55 open
+door 56 open
+door 57 closed
+door 58 closed
+door 59 closed
+door 60 open
+door 61 open
+door 62 open
+door 63 closed
+door 64 closed
+door 65 closed
+door 66 open
+door 67 open
+door 68 open
+door 69 closed
+door 70 closed
+door 71 closed
+door 72 open
+door 73 open
+door 74 open
+door 75 closed
+door 76 closed
+door 77 closed
+door 78 open
+door 79 open
+door 80 open
+door 81 closed
+door 82 closed
+door 83 closed
+door 84 open
+door 85 open
+door 86 open
+door 87 closed
+door 88 closed
+door 89 closed
+door 90 open
+door 91 open
+door 92 open
+door 93 closed
+door 94 closed
+door 95 closed
+door 96 open
+door 97 open
+door 98 closed
+[true, false, false, false, true, true, true, false, false, false, true, true, true, false, false, false, true, true, true, false, false, false, true, true, true, false, false, false, true, true, true, false, false, false, true, true, true, false, false, false, true, true, true, false, false, false, true, true, true, false, false, false, true, true, true, false, false, false, true, true, true, false, false, false, true, true, true, false, false, false, true, true, true, false, false, false, true, true, true, false, false, false, true, true, true, false, false, false, true, true, true, false, false, false, true, true, true, false, false, true]
+1) [32m   	Test initial state has 100 elements[39m
+[32m   	[39m
+
+KotlinTest completed in 0 seconds, 664 millis
+Specs: completed 1, tests 2
+Tests: passed 2, failed 0, ignored 0
