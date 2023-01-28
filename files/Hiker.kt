@@ -2,7 +2,7 @@ package hiker
 
 fun answer():Int {
     val initialState = Array(100){0}
-    initialState.forEachIndexed{i, index ->
+    initialState.forEachIndexed{ index , i ->
         if(i % 2 == 0){
                 initialState[index] = 1
         }
